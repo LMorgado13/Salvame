@@ -1,0 +1,28 @@
+@import "variables";
+     body{
+            font-family: $font-family-primary;
+            background-color: $color-white;
+
+            h2{ 
+                font-size: $font-size-h2;
+                font-family: $font-family-h2;
+                font-weight: $font-weight-h2;
+                color: $color-red;
+                
+          }
+                     .alink {
+                        color: $color-white;
+        
+                 } 
+
+        .obc{
+            color: $color-blue;
+            font-weight :$font-weight-h2;
+        } 
+
+   .lbc{
+    color: $color-gray;
+    font-weight :$font-weight-h2;
+  } 
+
+}
