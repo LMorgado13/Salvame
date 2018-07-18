@@ -26,7 +26,7 @@
                     font-family: $font-family-primary;
                     font-size: $font-size-h1;
                     font-weight: $font-weight-h1;
-                    
+                    color: $color-red;
             }
             
             .img {
@@ -64,6 +64,27 @@
             border-top: 5px solid $color-red;
         
         }
+
+    .mnf{
+            background-color: rgba(12, 12, 12, 0.479); 
+            opacity: 0.5;
+            color: $color-red;
+            padding: 20;
+            
+        }
+
+        #image {
+           
+            width: 100%;
+            //margin-top: 550px;
+            position: absolute;
+            top: 635px;
+            background: black;
+            opacity: 0.5;
+            color: rgb(252, 2, 2);
+            padding: 90px;
+            filter:  alpha(opacity=50);
+          }
 
     .card-height{
                 height:440px;
