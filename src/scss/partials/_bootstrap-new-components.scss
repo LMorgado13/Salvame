@@ -1,28 +1,28 @@
 @import "variables";
-  .b-panel {
-            &__heading {
-              background-color: $color-blue;
-              color: $color-white;
-              min-height: 30px;
-              padding: 10px 20px;
-              box-shadow: 6px 6px 6px 6px rgb(180, 179, 179)
-          }
-            &__body {
-              background-color: $color-white;
-              border: solid 1px #d9dddf;
-              padding: 10px 20px;
-              box-shadow: 6px 6px 6px 6px rgb(196, 195, 195)
-        }
-    
-    }
 
-    .b-panel-uno {
-          &__heading {
-            background-color: $color-red;
-            color: $color-white;
-            min-height: 0px;
-            padding: 10px 20px;
-        }
-    
-    
-    }
+.b-panel {
+  &__heading {
+    background-color: $color-blue;
+    color: $color-white;
+    min-height: 30px;
+    padding: 10px 20px;
+    box-shadow: 6px 6px 6px 6px rgb(180, 179, 179)
+  }
+  &__body {
+    background-color: $color-white;
+    border: solid 1px #d9dddf;
+    padding: 10px 20px;
+    box-shadow: 6px 6px 6px 6px rgb(196, 195, 195)
+  }
+
+}
+
+.b-panel-uno {
+  &__heading {
+    background-color: $color-red;
+    color: $color-white;
+    min-height: 0;
+    padding: 10px 20px;
+  }
+
+}

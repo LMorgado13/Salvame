@@ -18,7 +18,6 @@ gulp.task('watch', () => {
  * Sass Tasks
  */
 
-
 gulp.task('sass:compiled', () => {
   function buildStyles(prod) {
     return gulp

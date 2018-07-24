@@ -1,91 +1,92 @@
 @import "variables";
-    .b-header {
-               background-color: $color-red;
-               padding: 10;
-               min-height:40px;
-               color: $color-white;
 
-        .navbar {
-               background-color: $color-red;
-               padding: 10;
-               min-height:40px;
-               color: $color-white
-        }
+.b-header {
+  background-color: $color-red;
+  padding: 10px;
+  min-height: 40px;
+  color: $color-white;
 
-            .alink {
-                    color: $color-white;
-        
-                } 
+  .navbar {
+    background-color: $color-red;
+    padding: 10px;
+    min-height: 40px;
+    color: $color-white
+  }
 
-                .a {
-                    color: $color-white;
-        
-                } 
+  .alink {
+    color: $color-white;
 
-                h1{ 
-                    font-family: $font-family-primary;
-                    font-size: $font-size-h1;
-                    font-weight: $font-weight-h1;
-                    color: $color-red;
-            }
-            
-            .img {
-                width:100%;
-                max-width:80px;
-            } 
+  }
 
-        h2{ 
-                font-size: $font-size-h2;
-                font-family: $font-family-h2;
-                font-weight: $font-weight-h2;
-                color: $color-red;
-                
-        }
+  .a {
+    color: $color-white;
 
-        .al{
-            font-size: $font-size-h2;
-            font-family: $font-family-h2;
-            color: $color-white;
-            min-height:40px;
-        }  
+  }
 
-    .oi {
-            color: $color-white;
-    }
+  h1 {
+    font-family: $font-family-primary;
+    font-size: $font-size-h1;
+    font-weight: $font-weight-h1;
+    color: $color-red;
+  }
+
+  .img {
+    width: 100%;
+    max-width: 80px;
+  }
+
+  h2 {
+    font-size: $font-size-h2;
+    font-family: $font-family-h2;
+    font-weight: $font-weight-h2;
+    color: $color-red;
+
+  }
+
+  .al {
+    font-size: $font-size-h2;
+    font-family: $font-family-h2;
+    color: $color-white;
+    min-height: 40px;
+  }
+
+  .oi {
+    color: $color-white;
+  }
 
 }
 
 .b-footer {
-            background-color: $color-blue;
-            color: $color-white;
-    }
+  background-color: $color-blue;
+  color: $color-white;
+}
 
-    .style1{
-            border-top: 5px solid $color-red;
-        
-        }
+.style1 {
+  border-top: 5px solid $color-red;
 
-    .mnf{
-            background-color: rgba(12, 12, 12, 0.479); 
-            opacity: 0.5;
-            color: $color-red;
-            padding: 20;
-            
-        }
+}
 
-        #image {
-           
-            width: 100%;
-            //margin-top: 550px;
-            position: absolute;
-            top: 635px;
-            background: black;
-            opacity: 0.5;
-            color: rgb(252, 2, 2);
-            padding: 90px;
-            filter:  alpha(opacity=50);
-          }
+.mnf {
+  background-color: rgba(12, 12, 12, 0.479);
+  opacity: 0.5;
+  color: $color-red;
+  padding: 20;
 
-    .card-height{
-                height:440px;
+}
+
+#image {
+
+  width: 100%;
+  //margin-top: 550px;
+  position: absolute;
+  top: 635px;
+  background: black;
+  opacity: 0.5;
+  color: rgb(252, 2, 2);
+  padding: 90px;
+  filter: alpha(opacity=50);
+}
+
+.card-height {
+  height: 440px;
 }  
