@@ -65,15 +65,36 @@
 
 }
 
-#image {
-  width: 100%;
-  // margin-top: 550px;
-  position: absolute;
-  top: 635px;
-  background: black;
-  opacity: 0.5;
-  color: rgb(252, 2, 2);
-  padding: 90px;
-  filter: alpha(opacity=50);
+.b-main-image {
+  background: url("../../../static/img/dogs.jpg") no-repeat scroll center center transparent;
+  min-height: 700px;
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  &__text {
+    position: absolute;
+    bottom: 0;
+    background: black;
+    opacity: 0.5;
+    color: rgb(252, 2, 2);
+    padding: 60px 0;
+    filter: alpha(opacity=50);
+    width: 100%;
+  }
 }
+
+//#image {
+//  width: 100%;
+//  // margin-top: 550px;
+//  position: absolute;
+//  top: 635px;
+//  background: black;
+//  opacity: 0.5;
+//  color: rgb(252, 2, 2);
+//  padding: 90px;
+//  filter: alpha(opacity=50);
+//}
 
